@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dobry Market, український магазин у Гронінгені</title>
+  <meta name="description" content="Український і східноєвропейський магазин у Гронінгені: Roshen, ковбаса «Лікарська», пиво «Львівське», Non Stop, тараня, насіння, сухарики. Steentilstraat 40B.">
+  <meta name="theme-color" content="#1f45b5">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='16' fill='%231f45b5'/%3E%3Crect y='16' width='32' height='16' fill='%23ffcc1a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <h1 data-i18n="hero_title">Смаки дому в центрі Гронінгена</h1>
+          <p id="hero-text"></p>
+          <div class="hero__actions">
+            <a class="btn btn--sun" href="catalog.html" data-i18n="hero_cta">Переглянути каталог</a>
+            <a class="btn btn--ghost" href="#visit" data-i18n="hero_cta2">Як нас знайти</a>
+          </div>
+        </div>
+        <div class="store" id="store" aria-hidden="true"></div>
+      </div>
+    </section>
+    <div class="band" aria-hidden="true"></div>
+
+    <section class="section" aria-labelledby="cats-title">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <h2 id="cats-title" data-i18n="cats_title">Що є на полицях</h2>
+            <p data-i18n="cats_text"></p>
+          </div>
+        </div>
+        <ul class="cats" id="cats"></ul>
+      </div>
+    </section>
+
+    <section class="section section--white" aria-labelledby="hits-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="hits-title" data-i18n="hits_title">По що приходять найчастіше</h2>
+          <a class="link" href="catalog.html" data-i18n="hits_more">Увесь каталог</a>
+        </div>
+        <ul class="shelf" id="hits"></ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="origin-title">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <h2 id="origin-title" data-i18n="origin_title">Звідки привозимо</h2>
+            <p data-i18n="origin_text"></p>
+          </div>
+        </div>
+        <ul class="origins" id="origins"></ul>
+      </div>
+    </section>
+
+    <section class="section section--white" id="about" aria-labelledby="about-title">
+      <div class="wrap about">
+        <div class="about__text">
+          <h2 id="about-title" data-i18n="about_title">Про магазин</h2>
+          <p data-i18n="about_p1"></p>
+          <p data-i18n="about_p2"></p>
+        </div>
+        <div>
+          <h2 class="visually-hidden" data-i18n="reviews_title">Що кажуть покупці</h2>
+          <div class="rating">
+            <span class="rating__score">4,9</span>
+            <div>
+              <div class="stars" aria-label="4,9 / 5">★★★★★</div>
+              <div class="rating__count" id="reviews-count"></div>
+            </div>
+          </div>
+          <ul class="quotes">
+            <li>
+              <blockquote class="quote" lang="ru">
+                <p>Хороший магазин, большой выбор товаров, удобное расположение в Гронингене.</p>
+                <footer>Анастасия П., Google</footer>
+              </blockquote>
+            </li>
+            <li>
+              <blockquote class="quote" lang="en">
+                <p>I finally felt at home, nice store</p>
+                <footer>Рафаэл А., Google</footer>
+              </blockquote>
+            </li>
+            <li>
+              <blockquote class="quote" lang="en">
+                <p>Great selection of lots of different Eastern European food. Really happy that a place like this exists in Groningen.</p>
+                <footer>Oskar R., Google</footer>
+              </blockquote>
+            </li>
+          </ul>
+          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Dobry+Market+Steentilstraat+40B+Groningen" target="_blank" rel="noopener" data-i18n="reviews_all">Усі відгуки на Google</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="visit" aria-labelledby="visit-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="visit-title" data-i18n="visit_title">Як нас знайти</h2>
+        </div>
+        <div class="visit">
+          <div>
+            <div class="visit__block">
+              <h3 data-i18n="visit_addr">Адреса</h3>
+              <address>Dobry Market<br>Steentilstraat 40B<br>9711 GP Groningen</address>
+              <p style="margin-top:16px">
+                <a class="btn btn--ink" href="https://www.google.com/maps/dir/?api=1&amp;destination=Dobry+Market,+Steentilstraat+40B,+9711+GP+Groningen" target="_blank" rel="noopener" data-i18n="visit_route">Прокласти маршрут</a>
+              </p>
+            </div>
+            <div class="visit__block">
+              <h3 data-i18n="visit_hours">Години роботи</h3>
+              <table class="hours" id="hours"></table>
+            </div>
+          </div>
+          <iframe class="map" src="https://www.google.com/maps?q=Dobry+Market,+Steentilstraat+40B,+9711+GP+Groningen&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-i18n-title="visit_map" title="Карта"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/photos.js"></script>
+  <script src="js/packs.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
